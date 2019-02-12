@@ -13,6 +13,9 @@
 		EBE4425D221367C400C48210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE4425C221367C400C48210 /* Assets.xcassets */; };
 		EBE44260221367C400C48210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE4425E221367C400C48210 /* LaunchScreen.storyboard */; };
 		EBE4426C2213795000C48210 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBE4426B2213795000C48210 /* GoogleService-Info.plist */; };
+		EBE4427122137E7D00C48210 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE4427022137E7D00C48210 /* MessageViewController.swift */; };
+		EBE4427322137E9400C48210 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE4427222137E9400C48210 /* MessageTableViewController.swift */; };
+		EBE4427522137EB700C48210 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE4427422137EB700C48210 /* MessageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		EBE4425F221367C400C48210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBE44261221367C400C48210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBE4426B2213795000C48210 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EBE4427022137E7D00C48210 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		EBE4427222137E9400C48210 /* MessageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+		EBE4427422137EB700C48210 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,9 @@
 		EBE44254221367C300C48210 /* Firebase-Chat */ = {
 			isa = PBXGroup;
 			children = (
+				EBE4426F22137E3700C48210 /* View Controller */,
+				EBE4426E22137E2800C48210 /* Model Controller */,
+				EBE4426D22137E1A00C48210 /* Model */,
 				EBE44255221367C300C48210 /* AppDelegate.swift */,
 				EBE44259221367C300C48210 /* Main.storyboard */,
 				EBE4425C221367C400C48210 /* Assets.xcassets */,
@@ -86,6 +95,30 @@
 				EBE4426B2213795000C48210 /* GoogleService-Info.plist */,
 			);
 			path = "Firebase-Chat";
+			sourceTree = "<group>";
+		};
+		EBE4426D22137E1A00C48210 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBE4426E22137E2800C48210 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		EBE4426F22137E3700C48210 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EBE4427022137E7D00C48210 /* MessageViewController.swift */,
+				EBE4427222137E9400C48210 /* MessageTableViewController.swift */,
+				EBE4427422137EB700C48210 /* MessageTableViewCell.swift */,
+			);
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE4427122137E7D00C48210 /* MessageViewController.swift in Sources */,
+				EBE4427522137EB700C48210 /* MessageTableViewCell.swift in Sources */,
+				EBE4427322137E9400C48210 /* MessageTableViewController.swift in Sources */,
 				EBE44256221367C300C48210 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
