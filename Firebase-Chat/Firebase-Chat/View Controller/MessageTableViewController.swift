@@ -10,14 +10,14 @@ import UIKit
 
 class MessageTableViewController: UITableViewController {
 
+    let messageController = MessageController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        DispatchQueue.global().async {
+            self.messageController.createUser(name: "Iyin", message: "trying firebase")
+            self.messageController.createUser(name: "Liz", message: "She's not aware")
+        }
     }
 
     // MARK: - Table view data source

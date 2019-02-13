@@ -16,6 +16,8 @@
 		EBE4427122137E7D00C48210 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE4427022137E7D00C48210 /* MessageViewController.swift */; };
 		EBE4427322137E9400C48210 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE4427222137E9400C48210 /* MessageTableViewController.swift */; };
 		EBE4427522137EB700C48210 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE4427422137EB700C48210 /* MessageTableViewCell.swift */; };
+		EBE44277221385EA00C48210 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE44276221385EA00C48210 /* Message.swift */; };
+		EBE4427B221388F200C48210 /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE4427A221388F200C48210 /* MessageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		EBE4427022137E7D00C48210 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		EBE4427222137E9400C48210 /* MessageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
 		EBE4427422137EB700C48210 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		EBE44276221385EA00C48210 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		EBE4427A221388F200C48210 /* MessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 		EBE4426D22137E1A00C48210 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EBE44276221385EA00C48210 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -107,6 +112,7 @@
 		EBE4426E22137E2800C48210 /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EBE4427A221388F200C48210 /* MessageController.swift */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -251,7 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBE4427122137E7D00C48210 /* MessageViewController.swift in Sources */,
+				EBE4427B221388F200C48210 /* MessageController.swift in Sources */,
 				EBE4427522137EB700C48210 /* MessageTableViewCell.swift in Sources */,
+				EBE44277221385EA00C48210 /* Message.swift in Sources */,
 				EBE4427322137E9400C48210 /* MessageTableViewController.swift in Sources */,
 				EBE44256221367C300C48210 /* AppDelegate.swift in Sources */,
 			);
