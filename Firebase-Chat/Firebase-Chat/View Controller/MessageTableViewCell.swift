@@ -10,7 +10,19 @@ import UIKit
 
 class MessageTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var nameLabel: UILabel!
+    var userMessage: UserMessage? {
+        didSet{
+            updateView()
+        }
+    }
     
+    func updateView(){
+        if let userMessage = userMessage {
+            nameLabel.text = userMessage.name
+            dateLabel.text = userMessage.date.description
+        }
+    }
+    
+    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
 }
